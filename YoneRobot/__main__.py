@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/26e695185dbfe07f134f0.jpg), ɪᴍ ʏᴏɴᴇ ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
+ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/26e695185dbfe07f134f0.jpg), ɪᴍ LIZZA ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
 """
 
@@ -88,6 +88,10 @@ buttons = [
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
+    ], 
+    [
+        InlineKeyboardButton(
+            text="😎DEVOLEPER", url="https://t.me/Cutozki") 
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
@@ -96,7 +100,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [yone🙋‍♀️](https://telegra.ph/file/f316ddb569d0625c2bf0b.jpg) 
+`ʜɪ.. ɪ'ᴍ` [LIZZA](https://telegra.ph/file/f316ddb569d0625c2bf0b.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
 yone_IMG = "https://telegra.ph/file/26e695185dbfe07f134f0.jpg"
