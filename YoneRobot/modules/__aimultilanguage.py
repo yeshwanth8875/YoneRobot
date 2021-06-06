@@ -59,20 +59,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("yone AI Already Activated In This Chat")
+            await lel.edit("Lizza AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"yone AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"Lizza AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("yone AI Was Not Activated In This Chat")
+            await lel.edit("Lizza AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"yone AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Lizza AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -116,7 +116,7 @@ async def hmm(client, message):
         test = msg
         test = test.replace("yone", "Aco")
         test = test.replace("yone", "Aco")
-        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@YoneRobot&ownername=@A_viyu"
+        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@MissLizza_bot&ownername=@Cutozki"
 
         try:
             r = requests.request("GET", url=URL)
@@ -179,7 +179,7 @@ async def hmm(client, message):
         # Kang with the credits bitches @InukaASiTH
         test = test.replace("yone", "Aco")
         test = test.replace("yone", "Aco")
-        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@YoneRobot&ownername=@A_viyu"
+        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@MissLizza_bot&ownername=@Cutozki"
         try:
             r = requests.request("GET", url=URL)
         except:
@@ -253,7 +253,7 @@ async def inuka(client, message):
     # Kang with the credits bitches @InukaASiTH
     test = test.replace("yone", "Aco")
     test = test.replace("yone", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@YoneRobot&ownername=@A_viyu"
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@MissLizza_bot&ownername=@Cutozki"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -356,7 +356,7 @@ async def inuka(client, message):
 
 __help__ = """
 <b> Chatbot </b>
-Yone AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
+Lizza AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  - /chatbot [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
  - /chatbot EN : Enables English only chatbot
  
