@@ -105,10 +105,7 @@ HELP_STRINGS = """
 
 yone_IMG = "https://telegra.ph/file/26e695185dbfe07f134f0.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @kittu5588 \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+DONATE_STRING = """HEY GLAD TO THINK TO DONATE [CLICK HERE](https://t.me/Cutozki) AND DONATE."""
 
 IMPORTED = {}
 MIGRATEABLE = []
